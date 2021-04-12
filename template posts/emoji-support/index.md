@@ -27,6 +27,13 @@ The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference
 
 **N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
 
+👆 doesn't work
+
+look them up [here](https://unicode.org/emoji/charts/full-emoji-list.html)
+(rows are same icon)
+
+🧬 and 🦠 
+
 {{< highlight html >}}
 .emoji {
   font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;

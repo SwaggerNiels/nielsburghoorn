@@ -18,17 +18,17 @@ rssFullContent = true
 
     [params.sidebar.avatar]
     local = true
-    src = "img/avatar.png"
+    src = "img/diy-niels (2).jpeg"
 
   [params.article]
   math = false
 
     [params.article.license]
-    enabled = true
+    enabled = false
     default = "Licensed under CC BY-NC-SA 4.0"
 
   [params.comments]
-  enabled = true
+  enabled = false
   provider = "disqus"
 
     [params.comments.utterances]
@@ -69,18 +69,18 @@ url = "/"
 weight = -100
 pre = "home"
 
-[related]
-includeNewer = true
-threshold = 60
-toLower = false
+# [related]
+# includeNewer = true
+# threshold = 60
+# toLower = false
 
-  [[related.indices]]
-  name = "tags"
-  weight = 100
+#   [[related.indices]]
+#   name = "tags"
+#   weight = 100
 
-  [[related.indices]]
-  name = "categories"
-  weight = 200
+#   [[related.indices]]
+#   name = "categories"
+#   weight = 200
 
 [markup.highlight]
 noClasses = false

@@ -1,76 +1,98 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ananke: a Hugo Theme on My blog</title>
-    <link>https://example.com/</link>
-    <description>Recent content in Ananke: a Hugo Theme on My blog</description>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 14 Apr 2017 11:25:05 -0400</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapter VI: Esmeralda</title>
-      <link>https://example.com/post/chapter-6/</link>
-      <pubDate>Fri, 14 Apr 2017 11:25:05 -0400</pubDate>
+      <title>Chinese Test</title>
+      <link>/post/test-chinese/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/chapter-6/</guid>
-      <description>We are delighted to be able to inform the reader, that during the whole of this scene, Gringoire and his piece had stood firm. His actors, spurred on by him, had not ceased to spout his comedy, and he had not ceased to listen to it. He had made up his mind about the tumult, and was determined to proceed to the end, not giving up the hope of a return of attention on the part of the public.</description>
+      <guid>/post/test-chinese/</guid>
+      <description>正文测试 而这些并不是完全重要，更加重要的问题是， 带着这些问题，我们来审视一下学生会退会。 既然如何， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 我们不得不面对一个非常尴尬的事实，那就是， 可是，即使是这样，学生会退会的出现仍然代表了一定的意义。 学生会退会，发生了会如何，不发生又会如何。 经过上述讨论， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 学生会退会，到底应该如何实现。 这样看来， 在这种困难的抉择下，本人思来想去，寝食难安。 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 就我个人来说，学生会退会对我的意义，不能不说非常重大。 莎士比亚曾经提到过，人的一生是短的，但如果卑劣地过这一生，就太长了。这似乎解答了我的疑惑。 莫扎特说过一句富有哲理的话，谁和我一样用功，谁就会和我一样成功。这启发了我， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 学生会退会，到底应该如何实现。 一般来说， 从这个角度来看， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 在这种困难的抉择下，本人思来想去，寝食难安。 了解清楚学生会退会到底是一种怎么样的存在，是解决一切问题的关键。 一般来说， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 问题的关键究竟为何？ 而这些并不是完全重要，更加重要的问题是。
+奥斯特洛夫斯基曾经说过，共同的事业，共同的斗争，可以使人们产生忍受一切的力量。　带着这句话，我们还要更加慎重的审视这个问题： 一般来讲，我们都必须务必慎重的考虑考虑。 既然如此， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 带着这些问题，我们来审视一下学生会退会。 我认为， 我认为， 在这种困难的抉择下，本人思来想去，寝食难安。 问题的关键究竟为何？ 每个人都不得不面对这些问题。 在面对这种问题时， 要想清楚，学生会退会，到底是一种怎么样的存在。 我认为， 既然如此， 每个人都不得不面对这些问题。 在面对这种问题时， 那么， 我认为， 学生会退会因何而发生。
+引用  思念是最暖的忧伤像一双翅膀
+让我停不了飞不远在过往游荡
+不告而别的你 就算为了我着想
+这么沉痛的呵护 我怎么能翱翔
+最暖的憂傷 - 田馥甄
+ 图片 ![Photo by Florian Klauer on Unsplash](florian-klauer-nptLmg6jqDo-unsplash.jpg) ![Photo by Luca Bravo on Unsplash](luca-bravo-alS7ewQ41M8-unsplash.</description>
     </item>
     
     <item>
-      <title>Chapter V: Quasimodo</title>
-      <link>https://example.com/post/chapter-5/</link>
-      <pubDate>Thu, 13 Apr 2017 11:15:58 -0400</pubDate>
+      <title>Archives</title>
+      <link>/page/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/chapter-5/</guid>
-      <description>In the twinkling of an eye, all was ready to execute Coppenole’s idea. Bourgeois, scholars and law clerks all set to work. The little chapel situated opposite the marble table was selected for the scene of the grinning match. A pane broken in the pretty rose window above the door, left free a circle of stone through which it was agreed that the competitors should thrust their heads. In order to reach it, it was only necessary to mount upon a couple of hogsheads, which had been produced from I know not where, and perched one upon the other, after a fashion.</description>
+      <guid>/page/archives/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Chapter IV: Master Jacques Coppenole</title>
-      <link>https://example.com/post/chapter-4/</link>
-      <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
+      <title>Markdown Syntax Guide</title>
+      <link>/post/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/chapter-4/</guid>
-      <description>While the pensioner of Ghent and his eminence were exchanging very low bows and a few words in voices still lower, a man of lofty stature, with a large face and broad shoulders, presented himself, in order to enter abreast with Guillaume Rym; one would have pronounced him a bull-dog by the side of a fox. His felt doublet and leather jerkin made a spot on the velvet and silk which surrounded him.</description>
+      <guid>/post/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Chapter III: Monsieur the Cardinal</title>
-      <link>https://example.com/post/chapter-3/</link>
-      <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
+      <title>Rich Content</title>
+      <link>/post/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/chapter-3/</guid>
-      <description>Poor Gringoire! the din of all the great double petards of the Saint-Jean, the discharge of twenty arquebuses on supports, the detonation of that famous serpentine of the Tower of Billy, which, during the siege of Paris, on Sunday, the twenty-sixth of September, 1465, killed seven Burgundians at one blow, the explosion of all the powder stored at the gate of the Temple, would have rent his ears less rudely at that solemn and dramatic moment, than these few words, which fell from the lips of the usher, “His eminence, Monseigneur the Cardinal de Bourbon.</description>
+      <guid>/post/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Chapter II: Pierre Gringoire</title>
-      <link>https://example.com/post/chapter-2/</link>
-      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
+      <title>Placeholder Text</title>
+      <link>/post/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/chapter-2/</guid>
-      <description>Nevertheless, as be harangued them, the satisfaction and admiration unanimously excited by his costume were dissipated by his words; and when he reached that untoward conclusion: “As soon as his illustrious eminence, the cardinal, arrives, we will begin,” his voice was drowned in a thunder of hooting.
-“Begin instantly! The mystery! the mystery immediately!” shrieked the people. And above all the voices, that of Johannes de Molendino was audible, piercing the uproar like the fife’s derisive serenade: “Commence instantly!</description>
+      <guid>/post/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Chapter I: The Grand Hall</title>
-      <link>https://example.com/post/chapter-1/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      <title>Math Typesetting</title>
+      <link>/post/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/chapter-1/</guid>
-      <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
-The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
+      <guid>/post/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Contact</title>
-      <link>https://example.com/contact/</link>
+      <title>Emoji Support</title>
+      <link>/post/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/contact/</guid>
-      <description>This is an example of a custom shortcode that you can put right into your content. You will need to add a form action to the the shortcode to make it work. Check out Formspree for a simple, free form service.
-Your NameEmail AddressAn email address is required.Message</description>
+      <guid>/page/about/</guid>
+      <description>Academic background I did my Bsc Nanobiology at the TU Delft and Erasmus University.
+My thesis project at Erasmus Medical Center, was titled &amp;ldquo;Developing a standard method for the assessment of subclonal architecture reconstruction&amp;rdquo;. In this project I have worked with big datasets (genomic information), and constructed a framework and used algorithms for the assessment of subclonal compositions in tumor samples. This project was done under the supervision of Harmen van de Werken and Alberto Nakauma at CCBC.</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>/page/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/page/search/</guid>
+      <description></description>
     </item>
     
   </channel>

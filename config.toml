@@ -1,3 +1,5 @@
+theme = "hugo-theme-stack"
+
 [params]
 mainSections = [ "post" ]
 featuredImageField = "image"

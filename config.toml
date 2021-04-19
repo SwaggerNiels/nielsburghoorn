@@ -1,6 +1,7 @@
 title = "The DIY-student"
 baseURL = "https://www.nielsburghoorn.com"
 theme = "hugo-theme-stack"
+googleAnalytics = "UA-194957504-1"
 
 [params]
 mainSections = [ "post" ]

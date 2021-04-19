@@ -210,9 +210,9 @@ srcset="https://www.nielsburghoorn.com/post/arduino-phone/carton_with_leds_butto
 width="1536"
 height="2048"
 loading="lazy"
-alt="The underside of the top carton, removed carton skin aroun the button contacts">
+alt="The underside of the top carton, removed carton skin around the button contacts">
 &lt;/a>
-&lt;figcaption>The underside of the top carton, removed carton skin aroun the button contacts&lt;/figcaption>
+&lt;figcaption>The underside of the top carton, removed carton skin around the button contacts&lt;/figcaption>
 &lt;/figure>&lt;/p>
 &lt;p>For the legs: once are pierced through, bend them slightly outward such that they do not fall out. For the button contacts: the pairs closest to the LEDs will be used, otherwise unwanted nano-to-button contact might be made. The other 2x3 button contacts at the edge can be bend towards the middle to fix the button to the carton.&lt;/p>
 &lt;p>The top carton is done now. But the bottom carton is getting jalous and also wants a piercing. We will imprint the RF-nano pins on this bottom carton on the inside. They will not pierce all the way through, but their imprint will allow smooth alignment later on. For the imprint

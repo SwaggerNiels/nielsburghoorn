@@ -16,23 +16,23 @@ tags:
 <!-- What are we building? -->
 ### What is this... ard-wino-fone?
 We are going to build a small three-LED arduino communication device, known as the **Arduino-Phone**.
-The device will be able to send 3 different signals to it's counterpart, and shall also be able to receive these signals back.
+The device will be able to send 3 different signals to its counterpart, and shall also be able to receive these signals back.
 The device is operated using simple buttons and will display the reception or transmission using its LEDs.
-The Arduino-Phone definitely does not fall into the category of *revolutionairy technology*, but still is a pretty cool device.
+The Arduino-Phone definitely does not fall into the category of *revolutionary technology*, but still is a pretty cool device.
 
 <!-- What does it look like -->
-The layout of the system will look a something like this (left) and the final product will look this (right).
+The layout of the system will look something like this (left) and the final product will look this (right).
 ![overview of system](schematic(2).png) ![yes, I know... she is a miracle of amazement](device_finished1.jpeg)
 
 ### Stuff
-Everything you need in order to buid a single Arduino-Phone is roughly worth €10. These are the parts that are used up:
-- RF-nano ~ €5 (Arduino-nano integrated with nRF24L01 tranceiver) 
+Everything you need in order to build a single Arduino-Phone is roughly worth €10. These are the parts that are used up:
+- RF-nano ~ €5 (Arduino-nano integrated with nRF24L01 transceiver) 
 - components ~ €5 (buy a pack)
   - 3 LEDs 
   - 3 Buttons
   - 2 resistors
 
-Additinally you need some soldering equiptment and some hobby tools. These you can use again (or will only require a little piece):
+Additionally you need some soldering equipment and some hobby tools. These you can use again (or will only require a little piece):
 - soldering iron (any soldering iron is good enough)
 - solder
 - USB to micro-USB cable (you've got this laying around somewhere)
@@ -72,7 +72,7 @@ Lets dive in.
 ### Lay it out
 Choose the resistors you are going to use carefully, do not use a high resistance for the LEDs (~1kOhm is fine), because you want those **bright lights**. For the button-side, any resistor is okay.
 Now have a good look at the schematic, gather your parts and layout all the stuff you are going to use. 
-Be sure to set the soldering iron be on the side of the table where you'll be working from (do not turn it on yet).
+Be sure to set the soldering iron on the side of the table where you'll be working from (do not turn it on yet).
 To start, cut out two equal rectangles (~ 8x5cm) of carton with some scissors or a knife (or rip it apart with your bare hands like a beast).
 Look at the schematic again, and visualize where the parts are roughly going to be.  
 
@@ -86,9 +86,9 @@ One of the cartons will be on the top surface of the device, so try not to damag
 The button contacts might be too short to pierce all the way through your carton. In this case strip away the carton skin to reveal the contacts (see right picture below). This can be done with any sharp tool. I used the single scissor blade, but if you have a katana laying around, that would be... impractical.
 ![Pierced LEDs through top carton](carton_with_leds2.jpeg)![The high-tech user interface](carton_with_leds_buttons.jpeg)![The underside of the top carton, removed carton skin around the button contacts](carton_with_leds_buttons2.jpeg)
 
-For the legs: once are pierced through, bend them slightly outward such that they do not fall out. For the button contacts: the pairs closest to the LEDs will be used, otherwise unwanted nano-to-button contact might be made. The other 2x3 button contacts at the edge can be bend towards the middle to fix the button to the carton.
+For the legs: once they are pierced through, bend them slightly outward such that they do not fall out. For the button contacts: the pairs closest to the LEDs will be used, otherwise unwanted nano-to-button contact might be made. The other 2x3 button contacts at the edge can be bend towards the middle to fix the button to the carton.
 
-The top carton is done now. But the bottom carton is getting jalous and also wants a piercing. We will imprint the RF-nano pins on this bottom carton on the inside. They will not pierce all the way through, but their imprint will allow smooth alignment later on. For the imprint {{< p >}} place the RF-nano upside-down on the flipped top carton, make sure the USB port is at the edge and the RF-nano is in-between the exposed (center) button contacts and the LED legs, align the bottom carton, lift the bottom carton together with the RF-nano without shifting it, imprint the bottom carton gently, check the alignment. {{< /p >}}
+The top carton is done now. But the bottom carton is getting jealous and also wants a piercing. We will imprint the RF-nano pins on this bottom carton on the inside. They will not pierce all the way through, but their imprint will allow smooth alignment later on. For the imprint {{< p >}} place the RF-nano upside-down on the flipped top carton, make sure the USB port is at the edge and the RF-nano is in-between the exposed (centre) button contacts and the LED legs, align the bottom carton, lift the bottom carton together with the RF-nano without shifting it, imprint the bottom carton gently, check the alignment. {{< /p >}}
 ![Align the top and bottom carton with RF-nano USB port to at side](layout_bottom_carton2.jpeg) ![Imprint the bottom carton](layout_bottom_carton3.jpeg) ![Check the imprint](layout_bottom_carton1.jpeg)
 
 ### Prepare the wires
@@ -98,7 +98,7 @@ Now, 12 wires must be cut to a fitting length. Try to imagine where all the comp
 
 Next up, we prepare the wires for the soldering. Guess how? by soldering...
 
-> This part is serious though. Be carefull with the soldering iron, **touching it will result in burns**. Also, open a window to let some of those smelly solder-flux-fumes out.
+> This part is serious though. Be careful with the soldering iron, **touching it will result in burns**. Also, open a window to let some of those smelly solder-flux-fumes out.
 
 The wires will need to be twisted and "tinned" (applying a little solder), such that proper contact can be made. Use your fingers to twist the little copper wires in the stranded-wire. After this you can turn-on your soldering iron. While the iron is heating (~ 3min) you can clamp the wires somewhere accessible, such that you have two hands available: one for the solder, one for the iron. While clamping, make sure that the wires won't deflect too much when touched.
 
@@ -113,7 +113,7 @@ Once you have your resistor-solder beauty {{< p >}} clamp the three wires close 
 ![Resistor-solder beauty](resistor_wires_tinned2.jpeg) ![Resistor-solder-wires beauty'er](resistor_wires_connected2.jpeg)
 
 ### Soldering
-Now we are going to solder all the wires and the two resistor-solder-wires to the RF-nano. It is important to keep the RF-nano immobile, which can be achieved with a simple clip or something heavy. First we attach the 2 resistors: one resistor to each ground pin (labeled GND). We can also solder the remaining input-wires to the RF-nano. See the solder plan below.
+Now we are going to solder all the wires and the two resistor-solder-wires to the RF-nano. It is important to keep the RF-nano immobile, which can be achieved with a simple clip or something heavy. First we attach the 2 resistors: one resistor to each ground pin (labelled GND). We can also solder the remaining input-wires to the RF-nano. See the solder plan below.
 
 > In order to make a good mechanical connection and to leave room for the bottom carton I suggest you bend all the to-be-soldered contact pins outward. This will also make identification and soldering easier.
 
@@ -123,7 +123,7 @@ Check out the schematic again and solder all the wires and the two resistors to 
 
 Now it gets tricky. Next up are the button contacts, these are the most difficult. Make sure to heat these contacts very well before applying the solder. Same procedure: {{< p >}} camp the carton with the buttons (bottom-side up), clean iron, reapply solder to iron, heat the button contact (5-10s), then bring in solder. {{< /p >}} Leave a little blob of solder on the button contacts, this will be used to connect the wire. Also put some solder on the LED legs.
 
-Now check the schematic one last time, and position the RF-nano octopus top-down inbetween the blobs and legs. Now solder the wires to the button contacts and  the LEDs. Procedure: {{< p >}} clamp, clean, reapply,use pliers for holding the wire close to the blob/leg, shortly reheat the blob/leg with the iron, when the solder on the blob/leg melts pull away the iron and leave the wire in, wait for solder to solidify again. {{< /p >}}
+Now check the schematic one last time, and position the RF-nano octopus top-down in-between the blobs and legs. Now solder the wires to the button contacts and  the LEDs. Procedure: {{< p >}} clamp, clean, reapply, use pliers for holding the wire close to the blob/leg, shortly reheat the blob/leg with the iron, when the solder on the blob/leg melts pull away the iron and leave the wire in, wait for solder to solidify again. {{< /p >}}
 
 ![Some solder blobs on the button contacts](RF_nano_buttons_tinned.jpeg) ![Here is a wire soldered to the LED leg](wires_led_connected_closeup.jpeg)
 
@@ -348,9 +348,9 @@ So what does all this code mean? Well to you it might mean nothing, but to the c
 * We first define some variables and constants before `setup` function that will be used later. Also not that everything with a `//` before it is a "comment" and is not read by the computer. I have used these comments to explain the code briefly.
   * `# define DEBUG` is a "preprocessor macro" that can be removed when you are done with testing the code. These will allow us to make some code sections which help us see what is going on during testing.
   * `# define gLED 2` is also a "preprocessor macro", this will replace all the text "gLED" in our code by the number "2". This is done because the green led ("gLED") is on digital pin 2. The same is done for the other LEDs and also for the buttons.
-  * `short int onLED` is a "integer variable", this variable will change its value dependend on the LED that should be turned on.
+  * `short int onLED` is a "integer variable", this variable will change its value depending on the LED that should be turned on.
   * `const short int allocLED[4]` is an array of "constant integer variables", that contains a handy list of all the LED's pin numbers. It is constant ("const") since it will not be changed later on. The first member of the list ("0") will indicate that none of the LEDs is selected. The same list is made for the buttons.
-  * `#ifdef DEBUG`, `const char *LEDnames[4] = { "No led", "Green", "Red", "Yellow" };`, and `#endif` are the first lines of "debug code". It reads: "*if the preprocessor macro "DEBUG" is defined, then do the following: make a constant character pointer array "LEDnames". Now end this if statement.*" These character pointers are just words that will be used to describe the colors that are active (these are the ones you can see in the defined array between the curly brackets).
+  * `#ifdef DEBUG`, `const char *LEDnames[4] = { "No led", "Green", "Red", "Yellow" };`, and `#endif` are the first lines of "debug code". It reads: "*if the preprocessor macro "DEBUG" is defined, then do the following: make a constant character pointer array "LEDnames". Now end this if statement.*" These character pointers are just words that will be used to describe the colours that are active (these are the ones you can see in the defined array between the curly brackets).
   * Now we include the libraries that are needed for the communication of the RF-nanos. These are essentially big pieces of code made by someone else that I can hijack with `#include` command. They can be found in the Arduino library section (you can find them when searching [here](https://www.arduino.cc/en/reference/libraries)). 
   * The `#define CE_PIN` and `#define CSN_PIN` are used by the library for the communication. (This is still an artifact of using the use of nRF24L01 libraries for the integrated RF-nano, I do not yet know how to circumvent using these pins. Let me know if you do!)
   * `const byte rAddress[5]` is the virtual address that is given to the RF-nano with this particular C++ code in order to let the other RF-nano know where to send its message to. The `tAddress` is the address that is used to transmit to, it is the address of the recipient (the other RF-nano).
@@ -358,7 +358,7 @@ So what does all this code mean? Well to you it might mean nothing, but to the c
   > This means you can upload this same code to both devices!
   * `RF24 radio(CE_PIN, CSN_PIN)` means we are creating an radio object and naming it "RF24". This will be the radio from which we send and receive the messages.
   * The `rData` will contain the data that might be received by this RF-nano. And `tData` will represent the data that needs to be transmitted by this RF-nano, if a button is pressed. These are both integer variables.
-  * When receiving a message, we have to check whether the received message is a new message. Therefore, whenever a new message is received: boolean `newData` will jump to the "true" value. When the recieved message is handled, meaning the LED is turned on: its value will fall back to "false".
+  * When receiving a message, we have to check whether the received message is a new message. Therefore, whenever a new message is received: boolean `newData` will jump to the "true" value. When the received message is handled, meaning the LED is turned on: its value will fall back to "false".
   * The `currentMillis`, `previousMillis` and `intervalMillis` are variables that are used for timing the transmissions. Using these we can make sure that the RF-nano will only send a message every `intervalMillis`-number of milliseconds. I have chosen 100ms, since this works out nicely with the delay on the LEDs that is needed for them to transmit smoothly. 
 > When you press the devices button for less than 0.1s (=100ms) the device might not register it.
 
@@ -370,7 +370,7 @@ So what does all this code mean? Well to you it might mean nothing, but to the c
   * The message might fail to transmit, therefore `radio.setRetries(3,5)` allows the radio to "re-try" sending the message 5 times (max possible is 15), with an interval of 1000us (=(3 +1)\*250us. The maximum is again 15, which is (15 +1)\*250us = 4000us). See the [RF24 documentation](https://maniacbug.github.io/RF24/classRF24.html#a4c6d3959c8320e64568395f4ef507aef) for more information.
   * `radio.openWritingPipe(tAddress)` opens the possibility for the radio to transmit or "write" to the `tAddress`.
   * `radio.openReadingPipe(1, rAddress)` opens the possibility for the radio to receive or "read" messages on its first pipe from its `rAddress`.
-  * The device setup has come to an end, and it is now set up to listen to incomming messages with `radio.startListening()`.
+  * The device setup has come to an end, and it is now set up to listen to incoming messages with `radio.startListening()`.
 * The `void loop()` function is repeatedly executed by the arduino from now on. It is also standard in almost all arduino scripts.
   * First a boolean `sending` is created, which will indicate whether we need to send a message.
   * The `sending` value is set to "true" if the created `checkPressed()` function (defined later) notices that a button is pressed, otherwise the value is set to "false".
@@ -378,7 +378,7 @@ So what does all this code mean? Well to you it might mean nothing, but to the c
     * If in debug mode, let the serial monitor know that the RF-nano is sending a message.
     * Then send the message by calling the `send()` function (defined later).
   * However, if `sending` is "false":
-    * Just keep listening, since there may be an incomming message. This is done using the `listen()` function (defined later).
+    * Just keep listening, since there may be an incoming message. This is done using the `listen()` function (defined later).
   * After either transmitting (sending) or receiving/not-receiving (listening) a message the LEDs need to be turned on according to the button pressed or the message received. This is done in the `controlLEDs()` function (defined later).
 
 As you read, there are 4 to-be-defined functions in this device. Let's find out how they work.
@@ -394,9 +394,9 @@ As you read, there are 4 to-be-defined functions in this device. Let's find out 
 * `void send()` -
   This function returns nothing that therefore is of the type `void`.
   * First the current time is recorded in `currentMillis`, here `millis()` (a standard arduino function) changes its value to the amount of milliseconds past since the device was powered.
-  * The if-statement following will only be passed when the the curent time (`currentMillis`) is at least óne transmission interval later (`intervalMillis`) than the previous time that a transmission was made (`previousMillis`). When "true":
+  * The if-statement following will only be passed when the curent time (`currentMillis`) is at least óne transmission interval later (`intervalMillis`) than the previous time that a transmission was made (`previousMillis`). When "true":
     * A new boolean `rslt` is made (since typing result is too much effort apparently).
-    * We briefly interrupt our radio's listening, to write a message which contains the data that is stored on the address-of-our-transmission-data `&tData`, which has a number of bytes equal to the byte-length-of-tData `sizeof(tData)` (what a coincidence right!?). This tranmission will return "true" if succesful and "false" if not. The value will be stored in `rslt`. Now we quickly resume listening, in case anything is sent to this RF-nano. If debugging: print some details to the serial monitor about what we have been sending and whether the transmission was succesful. At last, we make sure to store the current time we have transmitted as the `previousMillis`, this will make sure that the device will wait a tenth of a second (since `intervalMillis` = 100ms) before it sends again.
+    * We briefly interrupt our radio's listening, to write a message which contains the data that is stored on the address-of-our-transmission-data `&tData`, which has a number of bytes equal to the byte-length-of-tData `sizeof(tData)` (what a coincidence right!?). This transmission will return "true" if succesful and "false" if not. The value will be stored in `rslt`. Now we quickly resume listening, in case anything is sent to this RF-nano. If debugging: print some details to the serial monitor about what we have been sending and whether the transmission was successful. At last, we make sure to store the current time we have transmitted as the `previousMillis`, this will make sure that the device will wait a tenth of a second (since `intervalMillis` = 100ms) before it sends again.
 
 * `void listen()` - 
   Also a function that has nothing to give, and is `void` of a returning value.
@@ -415,7 +415,7 @@ As you read, there are 4 to-be-defined functions in this device. Let's find out 
 
 ### Wrapping it up
 
-When the lights are responding and you have soldered everything up, then it is time to cover up the mess you have made. Sure, your it looks cool and pointy, but pressing a buttons is without grabbing the whole thing is impossible. Let's glue together the carton strips you made all the way in the beginning of this adventure. This carton ensemble is then stuck to the bottom of the buttons, and will support the little force applied when button-pressing. The bottom carton can now be glued on as well, where attention is payed to the alignment of the imprint that was made earlier.
+When the lights are responding and you have soldered everything up, then it is time to cover up the mess you have made. Sure, it looks cool and pointy, but pressing a button without grabbing the whole thing is impossible. Let's glue together the carton strips you made all the way in the beginning of this adventure. This carton ensemble is then stuck to the bottom of the buttons, and will support the little force applied when button-pressing. The bottom carton can now be glued on as well, where attention is paid to the alignment of the imprint that was made earlier.
 
 ![Sticking with carton](glue_carton_strips.jpeg) ![Wow!](final_device2.jpeg)
 
@@ -429,7 +429,7 @@ Let's say you are done, you have got 2 Arduino-Phones. Upload the above code to 
 
 ![Look at them go, ready to conquer the world](rs_pair.jpeg)
 
-So how far apart can you go with these things? Well, I have tested the range, and it seems that you can take the communication of the Arduino-Phones are worth approximately 20m, given you have a thin walls in between.
+So how far apart can you go with these things? Well, I have tested the range, and it seems that you can take the communication of the Arduino-Phones are worth approximately 20m, given you have thin walls in-between.
 
 ### Extending the range
-If you have thick walls or you want to communicate with the neighbour or your with your neighbour's neigbour (which is not you), this might be your cue to strengthen the signal. Extending the range can be done with a simple antenna (the reach will be ~1km in open air), but this is something for another post. See you next time!
+If you have thick walls or you want to communicate with your neighbour or with your neighbour's neighbour (which is not you), this might be your cue to strengthen the signal. Extending the range can be done with a simple antenna (the reach will be ~1km in open air), but this is something for another post. See you next time!

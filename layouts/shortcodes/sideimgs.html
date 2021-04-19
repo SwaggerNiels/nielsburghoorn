@@ -1,0 +1,36 @@
+{{ $number := .Get 0 }}
+{{ $height := .Get 1 }} 
+{{ $side   := .Get 2 }} 
+
+<style>
+    img {
+        float: left;
+        width: auto;
+        max-width: 50%;
+        padding: 5px;
+    }
+
+    .images {
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        margin: auto 0;
+        padding: 5px;
+    }
+}
+</style>
+
+<div class="images">
+    <div class="img">
+        <img src="{{.Get 3}}" style="height: {{ $height }}px"/>
+    </div>
+    <div class="img-container">
+        <img src="{{.Get 4}}" style="height: {{ $height }}px"/>
+    </div>
+    <div class="img-container">
+        <img src="{{.Get 5}}" style="height: {{ $height }}px" />
+    </div>
+    <div class="img-container">
+        <img src="{{.Get 6}}" style="height: {{ $height }}px" />
+    </div>
+</div>

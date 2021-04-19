@@ -1,0 +1,29 @@
+<style>
+    .scroll {
+        background: #00000005;
+        outline: 1px solid #00000030;
+        height: {{ .Get 0 }}px;
+        padding-left: 5px;
+        padding-right: 25px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    
+    .scroll::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    .scroll::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+        border-radius: 10px;
+    }
+
+    .scroll::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    }
+</style>
+
+<div class="scroll">
+    {{ .Inner | markdownify}}
+</div>

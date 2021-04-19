@@ -84,7 +84,7 @@ One of the cartons will be on the top surface of the device, so try not to damag
 > Leave enough room for the RF-nano on the other side to fit in-between the button contacts and the LED legs.
 
 The button contacts might be too short to pierce all the way through your carton. In this case strip away the carton skin to reveal the contacts (see right picture below). This can be done with any sharp tool. I used the single scissor blade, but if you have a katana laying around, that would be... impractical.
-![Pierced LEDs through top carton](carton_with_leds2.jpeg)![The high-tech user interface](carton_with_leds_buttons.jpeg)![The underside of the top carton, removed carton skin aroun the button contacts](carton_with_leds_buttons2.jpeg)
+![Pierced LEDs through top carton](carton_with_leds2.jpeg)![The high-tech user interface](carton_with_leds_buttons.jpeg)![The underside of the top carton, removed carton skin around the button contacts](carton_with_leds_buttons2.jpeg)
 
 For the legs: once are pierced through, bend them slightly outward such that they do not fall out. For the button contacts: the pairs closest to the LEDs will be used, otherwise unwanted nano-to-button contact might be made. The other 2x3 button contacts at the edge can be bend towards the middle to fix the button to the carton.
 
